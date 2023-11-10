@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
-////me change your the edittt////
+#include <stdlib.h
+/// dhanush edited your code///
 struct node 
 {
 	int in;
