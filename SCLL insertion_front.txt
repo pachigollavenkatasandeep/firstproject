@@ -20,7 +20,7 @@ void insertAtFront(int data)
 	{
 		temp->in = data;
 		temp->next = last->next;
-		last->next = temp;
+		last->next =;
 	}
 }
 void viewList()
