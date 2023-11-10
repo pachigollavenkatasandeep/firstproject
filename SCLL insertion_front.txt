@@ -37,12 +37,4 @@ void viewList()
 			temp = temp->next;
 		} while (temp != last->next);
 	}
-}
-int main()
-{
-	insertAtFront(10);
-	insertAtFront(20);
-	insertAtFront(30);
-	viewList();
-	return 0;
-}
+}code is edited in new branch
