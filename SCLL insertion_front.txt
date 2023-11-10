@@ -1,6 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h
-/// dhanush edited your code///
+
+=======
+#include <stdlib.h>
+////me change your the edittt////
 struct node 
 {
 	int in;
@@ -33,4 +34,4 @@ void viewList()
 			temp = temp->next;
 		} while (temp != last->next);
 	}
-}code is edited in new branch.....****
+}
