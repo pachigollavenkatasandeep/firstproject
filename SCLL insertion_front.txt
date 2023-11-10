@@ -16,12 +16,7 @@ void insertAtFront(int data)
 		temp->in = data;
 		temp->next = temp;
 		last = temp;
-	}
-	else 
-	{
-		
-		temp->next = last->next;
-		last->next =;
+
 	}
 }
 void viewList()
