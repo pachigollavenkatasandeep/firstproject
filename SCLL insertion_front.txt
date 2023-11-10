@@ -5,7 +5,7 @@ struct node
 	int in;
 	struct node* next;
 };
-struct node* last = NULL;
+s
 void insertAtFront(int data)
 {
 	struct node* temp;
@@ -18,7 +18,7 @@ void insertAtFront(int data)
 	}
 	else 
 	{
-		temp->in = data;
+		
 		temp->next = last->next;
 		last->next =;
 	}
